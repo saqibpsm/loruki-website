@@ -56,6 +56,15 @@
   color: #fff;
 }
 
+.bg-primary a,
+.btn-primary a,
+.bg-secondary a,
+.btn-secondary a,
+.bg-dark a,
+.btn-dark a {
+  color: #fff;
+}
+
 .bg-light,
 .btn-light {
   background-color: var(--light-color);
@@ -183,4 +192,8 @@
 
 .p-5 {
   padding: 4rem 0;
+}
+
+li {
+  list-style: none;
 }
