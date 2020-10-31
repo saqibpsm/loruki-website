@@ -11,7 +11,7 @@
   gap: 20px;
   justify-content: center;
   align-items: center;
-  height: left100%;
+  height: 100%;
 }
 
 .card {
@@ -56,6 +56,29 @@
   color: #fff;
 }
 
+.bg-light,
+.btn-light {
+  background-color: var(--light-color);
+  color: #333;
+}
+
+/* Text colors */
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-secondary {
+  color: var(--secondary-color);
+}
+
+.text-dark {
+  color: var(--dark-color);
+}
+
+.text-light {
+  color: var(lightcolor);
+}
+
 .bg-primary a,
 .btn-primary a,
 .bg-secondary a,
@@ -63,12 +86,6 @@
 .bg-dark a,
 .btn-dark a {
   color: #fff;
-}
-
-.bg-light,
-.btn-light {
-  background-color: var(--light-color);
-  color: #333;
 }
 
 /* text sizes */
@@ -94,6 +111,27 @@
 
 .text-center {
   text-align: center;
+}
+
+/* alerts */
+.alert {
+  background-color: var(--light-color);
+  padding: 10px 20px;
+  margin: 15px 0;
+}
+
+.alert i {
+  margin-right: 10px;
+}
+
+.alert-success {
+  background-color: var(--success-color);
+  color: #fff;
+}
+
+.alert-error {
+  background-color: var(--error-color);
+  color: #fff;
 }
 
 .btn-outline {
@@ -134,23 +172,23 @@
 }
 
 .m-1 {
-  margin: 1rem 0;
+  margin: 1rem;
 }
 
 .m-2 {
-  margin: 1.5rem 0;
+  margin: 1.5rem;
 }
 
 .m-3 {
-  margin: 2rem 0;
+  margin: 2rem;
 }
 
 .m-4 {
-  margin: 3rem 0;
+  margin: 3rem;
 }
 
 .m-5 {
-  margin: 4rem 0;
+  margin: 4rem;
 }
 
 /* Paddings */
@@ -175,23 +213,23 @@
 }
 
 .p-1 {
-  padding: 1rem 0;
+  padding: 1rem;
 }
 
 .p-2 {
-  padding: 1.5rem 0;
+  padding: 1.5rem;
 }
 
 .p-3 {
-  padding: 2rem 0;
+  padding: 2rem;
 }
 
 .p-4 {
-  padding: 3rem 0;
+  padding: 3rem;
 }
 
 .p-5 {
-  padding: 4rem 0;
+  padding: 4rem;
 }
 
 li {
